@@ -1,0 +1,36 @@
+
+  .slider-container {
+    position: relative;
+    width: 80%;
+    margin: 20px auto;
+  }
+  
+  .custom-slider {
+    width: 100%;
+    -webkit-appearance: none;
+    appearance: none;
+    height: 16px;
+    border-radius: 8px; /* Bordas arredondadas */
+    background: #D6DBDB;
+    outline: none;
+    margin-bottom: 16px; /* Espaço abaixo da barra para o valor */
+  }
+  
+  .custom-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%; /* Círculo da barra*/
+    background: #057D88;
+    cursor: pointer;
+  }
+  
+  .slider-value {
+    position: absolute;
+    top: 10px;
+    left: 50%; /* Posicionamento horizontal no meio da barra */
+    transform: translateX(-50%); /* Ajuste para centralizar */
+    font-size: 14px;
+    white-space: nowrap; /* Evita que o texto quebre em várias linhas */
+  }
