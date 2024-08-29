@@ -221,7 +221,7 @@ describe('LoanRepository', () => {
       expect(result).toEqual(`Empréstimo com id ${loanId} foi deletado`);
     });
 
-    it('should throw NotFoundException if loan is not found', async () => {
+    it('should throw Error if loan is not found', async () => {
       const loanId = 1;
       jest.spyOn(loanRepository, 'findOne').mockResolvedValue(undefined);
 

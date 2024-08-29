@@ -203,11 +203,11 @@ export default function App(){
   return(
     <div className="w-full bg-customWhite min-h-screen flex-col justify-center">
       {/* header */}
-      <header className="bg-customBlue py-3 px-4 text-white">
+      <header className="bg-customBlue py-3 px-4 text-gre">
         <div className="flex items-center justify-between">
           <div className="flex items-center">
-            <img src="credifit.png" alt="Credifit logo" className="h-5" />
-            <h1 className=" text-xl font-normal">Credifit</h1>
+            <img src="credito.png" alt="Credito logo" className="h-5" />
+            <h1 className=" text-xl font-normal">Credito Consignado</h1>
           </div>
           <div className="px-6 flex items-center">
             {renderEmployeeName()}
@@ -380,7 +380,7 @@ export default function App(){
                 <div className='bg-customOrage flex rounded-2xl px-2 py-2'>
                   <img src='icon-woman.png' alt='Icon de atendente' className='h-16 px-2 py-2'/>
                   <h1 className='px-3 py-3 font-sans font-normal text-gray-800'> 
-                  Pronto! Agora você já pode solicitar o empréstimo e recebê-lo na sua Conta Credifit!
+                  Pronto! Agora você já pode solicitar o empréstimo e recebê-lo na sua Conta!
                    Veja o resumo da simulação!
                   </h1>           
                 </div>
